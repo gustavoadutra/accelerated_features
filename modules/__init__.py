@@ -3,4 +3,5 @@
 https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
 """
 
-from modules import model, interpolator
+from modules.interpolator import InterpolateSparse2d
+from modules.model import *

@@ -10,8 +10,7 @@ import torch.nn.functional as F
 
 import tqdm
 
-from model import *
-from interpolator import InterpolateSparse2d
+from . import *
 
 
 class XFeat(nn.Module):
