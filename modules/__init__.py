@@ -3,4 +3,4 @@
 https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
 """
 
-import modules
+from modules import model, interpolator
