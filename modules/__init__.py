@@ -5,3 +5,5 @@ https://www.verlab.dcc.ufmg.br/descriptors/xfeat_cvpr24/
 
 from . import interpolator
 from . import model
+from . import xfeat
+from . import lighterglue

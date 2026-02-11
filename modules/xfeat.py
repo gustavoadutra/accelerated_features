@@ -37,6 +37,7 @@ class XFeat(nn.Module):
                 print("loading weights from: " + weights)
                 self.net.load_state_dict(torch.load(weights, map_location=self.dev))
             else:
+                print("loading weights from provided state_dict")
                 self.net.load_state_dict(weights)
 
         self.interpolator = InterpolateSparse2d("bicubic")
